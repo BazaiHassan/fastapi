@@ -1,10 +1,22 @@
 # FastAPI Learning Examples
 
-
+A collection of FastAPI examples organized by lectures. Each directory contains practical code samples for different FastAPI concepts.
 
 ## 📌 Table of Contents
-- [🚀 Lecture 01](tree/main/lect_02)
--
+- [🚀 Lecture 01](#-lecture-01)
+- [🚀 Lecture 02](#-lecture-02)
+- [⚙️ Setup & Installation](#️-setup--installation)
+- [📂 Repository Structure](#-repository-structure)
+
+---
+
+## 🚀 Lecture 01
+Introduction to FastAPI basics
+- [View Code](lect_01/)
+
+## 🚀 Lecture 02
+Working with routes and endpoints
+- [View Code](lect_02/)
 
 ---
 
