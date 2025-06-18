@@ -3,7 +3,7 @@
 
 
 ## 📌 Table of Contents
-- [🚀 Lecture 01](-tree/main/lect_02)
+- [🚀 Lecture 01](tree/main/lect_02)
 -
 
 ---
