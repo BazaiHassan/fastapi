@@ -25,7 +25,7 @@ Pydantic is a data validation library that works seamlessly with FastAPI. It pro
 First, install the required packages:
 
 ```bash
-pip install fastapi pydantic uvicorn
+pip install pydantic
 ```
 
 Create a file `main.py` for your FastAPI application.

@@ -5,6 +5,7 @@ A collection of FastAPI examples organized by lectures. Each directory contains 
 ## 📌 Table of Contents
 - [🚀 Lecture 01](#-lecture-01)
 - [🚀 Lecture 02](#-lecture-02)
+- [🚀 Lecture 03](#-lecture-03)
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📂 Repository Structure](#-repository-structure)
 
@@ -18,6 +19,9 @@ Introduction to FastAPI basics
 This is about route ordering in the fastAPI.
 - [View Code](lect_02/)
 
+## 🚀 Lecture 03
+Here I provide you with the Pydantic using in FastAPI
+- [View Code](lect_03/)
 ---
 
 ## ⚙️ Setup & Installation
