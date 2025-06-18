@@ -3,13 +3,8 @@
 
 
 ## 📌 Table of Contents
-- [🚀 Features](#-features)
-- [⚙️ Setup & Installation](#️-setup--installation)
-- [📂 Repository Structure](#-repository-structure)
-- [🔍 API Documentation](#-api-documentation)
-- [🛠️ Development](#️-development)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
+- [🚀 Lecture 01](-tree/main/lect_02)
+-
 
 ---
 
