@@ -15,7 +15,7 @@ Introduction to FastAPI basics
 - [View Code](lect_01/)
 
 ## 🚀 Lecture 02
-Working with routes and endpoints
+This is about route ordering in the fastAPI.
 - [View Code](lect_02/)
 
 ---
