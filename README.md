@@ -20,7 +20,7 @@ This is about route ordering in the fastAPI.
 - [View Code](lect_02/)
 
 ## 🚀 Lecture 03
-Here I provide you with the Pydantic using in FastAPI
+Query and Path parameters
 - [View Code](lect_03/)
 ---
 
