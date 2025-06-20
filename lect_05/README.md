@@ -1,0 +1,1 @@
+## Using pydantic to validate request and responses in FastAPI

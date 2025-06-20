@@ -6,6 +6,8 @@ A collection of FastAPI examples organized by lectures. Each directory contains 
 - [🚀 Lecture 01](#-lecture-01)
 - [🚀 Lecture 02](#-lecture-02)
 - [🚀 Lecture 03](#-lecture-03)
+- [🚀 Lecture 04](#-lecture-04)
+- [🚀 Lecture 05](#-lecture-05)
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📂 Repository Structure](#-repository-structure)
 
@@ -22,6 +24,14 @@ This is about route ordering in the fastAPI.
 ## 🚀 Lecture 03
 Query and Path parameters
 - [View Code](lect_03/)
+
+## 🚀 Lecture 04
+CRUD Operations
+- [View Code](lect_04/)
+
+## 🚀 Lecture 05
+Pydantic Model
+- [View Code](lect_05/)
 ---
 
 ## ⚙️ Setup & Installation
