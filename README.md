@@ -9,6 +9,7 @@ A collection of FastAPI examples organized by lectures. Each directory contains 
 - [🚀 Lecture 04](#-lecture-04)
 - [🚀 Lecture 05](#-lecture-05)
 - [🚀 Lecture 06](#-lecture-06)
+- [🚀 Lecture 07](#-lecture-07)
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📂 Repository Structure](#-repository-structure)
 
@@ -37,6 +38,10 @@ Pydantic Model
 ## 🚀 Lecture 06
 Using JSON file as our Database
 - [View Code](lect_06/)
+
+## 🚀 Lecture 07
+SQL database
+- [View Code](lect_07/)
 ---
 
 ## ⚙️ Setup & Installation
