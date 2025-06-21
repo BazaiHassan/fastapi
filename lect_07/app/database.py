@@ -3,7 +3,7 @@ from app.schemas import ShipmentCreate, ShipmentUpdate
 from typing import Any
 
 class Database:
-    def __ini__(self):
+    def __init__(self):
         # Make a connection to db
         self.conn = sqlite3.connect("sqlite.db", check_same_thread=False)
         # get cursor to execute queries
@@ -13,31 +13,25 @@ class Database:
         self.create_table()
 
     def create_table(self):
-        # 1.  Create a table
         self.cur.execute("""
             CREATE TABLE IF NOT EXISTS shipment (
-                id INTEGER PRIMARY KEY, 
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
                 content TEXT, 
                 weight REAL, 
                 status TEXT
             )
         """)
 
-    def create(self, shipment:ShipmentCreate):
-        # find a new id
-        self.cur.execute("SELECT MAX(id) FROM shipment")
-        result = self.cur.fetchone()
-
-        new_id = result[0]+1
-
-        self.cur.execute("""
-            INSERT INTO shipment
-            VALUES (:id, :content, :weight, :status)
-        """,{"id":new_id, **shipment.model_dump(),"status":"placed"})
-
+    def create(self, shipment: ShipmentCreate):
+        self.cur.execute(
+            """
+                INSERT INTO shipment (content, weight, status)
+                VALUES (:content, :weight, :status)
+            """,
+            {**shipment.model_dump(), "status": "placed"}
+        )
         self.conn.commit()
-
-        return new_id
+        return self.cur.lastrowid  # Returns the auto-generated ID
     
     def get(self, id:int)->dict[str, Any]:
         self.cur.execute(
