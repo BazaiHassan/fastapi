@@ -3,14 +3,12 @@ from app.schemas import ShipmentCreate, ShipmentUpdate
 from typing import Any
 
 class Database:
-    def __init__(self):
+
+    def connect_to_db(self):
         # Make a connection to db
         self.conn = sqlite3.connect("sqlite.db", check_same_thread=False)
         # get cursor to execute queries
         self.cur = self.conn.cursor()
-
-        # Create table execute
-        self.create_table()
 
     def create_table(self):
         self.cur.execute("""
@@ -91,4 +89,12 @@ class Database:
 
     def close(self):
         self.conn.close()
+
+    def __enter__(self):
+        self.connect_to_db()
+        self.create_table()
+        return self
+    
+    def __exit__(self, *arg):
+        self.close()
 
