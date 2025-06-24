@@ -10,6 +10,8 @@ A collection of FastAPI examples organized by lectures. Each directory contains 
 - [🚀 Lecture 05](#-lecture-05)
 - [🚀 Lecture 06](#-lecture-06)
 - [🚀 Lecture 07](#-lecture-07)
+- [🚀 Lecture 07](#-lecture-08)
+- [🚀 Lecture 07](#-lecture-09)
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📂 Repository Structure](#-repository-structure)
 
@@ -42,6 +44,14 @@ Using JSON file as our Database
 ## 🚀 Lecture 07
 SQL database
 - [View Code](lect_07/)
+
+## 🚀 Lecture 08
+Setup Postgres DB
+- [View Code](lect_08/)
+
+## 🚀 Lecture 07
+Add Register api route and hash password methods
+- [View Code](lect_09/)
 ---
 
 ## ⚙️ Setup & Installation

@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
 
-from app.api.dependencies import ServiceDep
+from app.api.dependencies import ShipmentServiceDep
 from app.api.schemas.shipment import ShipmentCreate, ShipmentUpdate, ShipmentRead
 
 
@@ -8,7 +8,7 @@ router = APIRouter(prefix="/shipment", tags=["Shipment"])
 
 
 @router.get("/", response_model=ShipmentRead)
-async def get_shipment(id: int, service: ServiceDep):
+async def get_shipment(id: int, service: ShipmentServiceDep):
     shipment = await service.get(id)
 
     if shipment is None:
@@ -20,13 +20,13 @@ async def get_shipment(id: int, service: ServiceDep):
 
 
 @router.post("/", response_model=ShipmentRead)
-async def submit_shipment(shipment: ShipmentCreate, service: ServiceDep):
+async def submit_shipment(shipment: ShipmentCreate, service: ShipmentServiceDep):
     return await service.add(shipment_create=shipment)
 
 
 @router.patch("/", response_model=ShipmentRead)
 async def update_shipment(
-    id: int, shipment_update: ShipmentUpdate, service: ServiceDep
+    id: int, shipment_update: ShipmentUpdate, service: ShipmentServiceDep
 ):
     update = shipment_update.model_dump(exclude_none=True)
 
@@ -41,6 +41,6 @@ async def update_shipment(
 
 
 @router.delete("/")
-async def delete_shipment(id: int, service: ServiceDep):
+async def delete_shipment(id: int, service: ShipmentServiceDep):
     await service.delete(id)
     return {"detail": f"Shipment with id #{id} is deleted!"}
