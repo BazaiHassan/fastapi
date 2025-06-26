@@ -12,7 +12,7 @@ class SellerService:
 
     async def add(self, credentials: SellerCreate)->Seller:
         seller = Seller(
-            **credentials.model_dump(exclude=["password"]),
+            **credentials.model_dump(exclude=["password",]),
             password_hash=password_context.hash(credentials.password)
         )
 
