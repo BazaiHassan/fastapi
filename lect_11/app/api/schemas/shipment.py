@@ -13,6 +13,7 @@ class BaseShipment(BaseModel):
 
 class ShipmentRead(BaseShipment):
     id: UUID
+    seller:Seller
     status: ShipmentStatus
     estimated_delivery: datetime
 

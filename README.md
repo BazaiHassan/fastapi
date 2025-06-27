@@ -13,6 +13,7 @@ A collection of FastAPI examples organized by lectures. Each directory contains 
 - [🚀 Lecture 08](#-lecture-08)
 - [🚀 Lecture 09](#-lecture-09)
 - [🚀 Lecture 10](#-lecture-10)
+- [🚀 Lecture 11](#-lecture-11)
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📂 Repository Structure](#-repository-structure)
 
@@ -57,6 +58,10 @@ Add Register api route and hash password methods
 ## 🚀 Lecture 10
 Adding logout method, create blacklist in Redis for logged out users
 - [View Code](lect_10/)
+
+## 🚀 Lecture 11
+SQL Relations
+- [View Code](lect_11/)
 
 ---
 
