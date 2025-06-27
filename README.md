@@ -14,6 +14,7 @@ A collection of FastAPI examples organized by lectures. Each directory contains 
 - [🚀 Lecture 09](#-lecture-09)
 - [🚀 Lecture 10](#-lecture-10)
 - [🚀 Lecture 11](#-lecture-11)
+- [🚀 Lecture 12](#-lecture-12)
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📂 Repository Structure](#-repository-structure)
 
@@ -62,6 +63,10 @@ Adding logout method, create blacklist in Redis for logged out users
 ## 🚀 Lecture 11
 SQL Relations
 - [View Code](lect_11/)
+
+## 🚀 Lecture 12
+Alembic Database Migrations
+- [View Code](lect_12/)
 
 ---
 
