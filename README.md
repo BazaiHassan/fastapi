@@ -75,4 +75,14 @@ SQL Relations
 1. Clone the repository:
    ```bash
    git clone https://github.com/BazaiHassan/fastapi.git
-   
+
+2. Change directory to to specific lecture
+   ```bash
+   # for example
+   cd lect_11
+
+3. Run your db servers like Postgres and Redis based on your OS you must install them
+
+4. Run fastapi
+   ```bash
+   fastapi dev   
