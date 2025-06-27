@@ -10,8 +10,9 @@ A collection of FastAPI examples organized by lectures. Each directory contains 
 - [🚀 Lecture 05](#-lecture-05)
 - [🚀 Lecture 06](#-lecture-06)
 - [🚀 Lecture 07](#-lecture-07)
-- [🚀 Lecture 07](#-lecture-08)
-- [🚀 Lecture 07](#-lecture-09)
+- [🚀 Lecture 08](#-lecture-08)
+- [🚀 Lecture 09](#-lecture-09)
+- [🚀 Lecture 10](#-lecture-10)
 - [⚙️ Setup & Installation](#️-setup--installation)
 - [📂 Repository Structure](#-repository-structure)
 
@@ -49,9 +50,14 @@ SQL database
 Setup Postgres DB
 - [View Code](lect_08/)
 
-## 🚀 Lecture 07
+## 🚀 Lecture 09
 Add Register api route and hash password methods
 - [View Code](lect_09/)
+
+## 🚀 Lecture 10
+Adding logout method, create blacklist in Redis for logged out users
+- [View Code](lect_10/)
+
 ---
 
 ## ⚙️ Setup & Installation
